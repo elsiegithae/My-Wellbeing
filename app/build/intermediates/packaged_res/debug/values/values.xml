@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="spinner1_options">
+        <item>Select Answer</item>
+        <item>Social Life</item>
+        <item>Relationships</item>
+        <item>Friends and Family</item>
+        <item>School or Work</item>
+        <item>Hobbies</item>
+        <item>Not Sure</item>
+        <item>Other</item>
+    </string-array>
     <string-array name="spinner_options">
         <item>Select answer</item>
         <item>Social Life</item>

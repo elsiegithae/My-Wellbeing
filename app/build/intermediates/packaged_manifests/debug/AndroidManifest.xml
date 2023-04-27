@@ -27,6 +27,18 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyWellbeing" >
         <activity
+            android:name="com.example.mywellbeing.sad"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mywellbeing.unhappy"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mywellbeing.rad"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mywellbeing.angry"
+            android:exported="false" />
+        <activity
             android:name="com.example.mywellbeing.happy"
             android:exported="false" />
         <activity

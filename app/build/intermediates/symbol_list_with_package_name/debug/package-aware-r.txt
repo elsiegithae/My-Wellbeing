@@ -74,6 +74,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array spinner1_options
 array spinner_options
 attr SharedValue
 attr SharedValueId
@@ -2703,7 +2704,11 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_angry
 drawable bg_happy
+drawable bg_rad
+drawable bg_sad
+drawable bg_unhappy
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3054,8 +3059,18 @@ id listMode
 id list_item
 id m3_side_sheet
 id mBtnDone
+id mBtnDone1
+id mBtnDone2
+id mBtnDone3
+id mBtnDone4
 id mSpinner
 id mText
+id mTxt1
+id mTxt2
+id mTxt3
+id mTxt4
+id mTxt5
+id mTxtUnhappy
 id marquee
 id masked
 id match_constraint
@@ -3091,6 +3106,7 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id mspinnerAngry
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -3220,6 +3236,9 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinner
+id spinner2
+id spinner3
 id spline
 id split_action_bar
 id spread
@@ -3262,6 +3281,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3289,6 +3310,7 @@ id transition_transform
 id triangle
 id txtEncourge
 id txtMain
+id txthappy
 id unchecked
 id uniform
 id unlabeled
@@ -3418,8 +3440,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_angry
 layout activity_happy
 layout activity_main
+layout activity_rad
+layout activity_sad
+layout activity_unhappy
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

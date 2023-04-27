@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array spinner1_options
 array spinner_options
 color black
 color purple_200
@@ -8,7 +9,11 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable bg_angry
 drawable bg_happy
+drawable bg_rad
+drawable bg_sad
+drawable bg_unhappy
 drawable happy
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -22,12 +27,33 @@ id btnUnhappy
 id imageView
 id linearLayout
 id mBtnDone
+id mBtnDone1
+id mBtnDone2
+id mBtnDone3
+id mBtnDone4
 id mSpinner
 id mText
+id mTxt1
+id mTxt2
+id mTxt3
+id mTxt4
+id mTxt5
+id mTxtUnhappy
+id mspinnerAngry
+id spinner
+id spinner2
+id spinner3
+id textView
+id textView2
 id txtEncourge
 id txtMain
+id txthappy
+layout activity_angry
 layout activity_happy
 layout activity_main
+layout activity_rad
+layout activity_sad
+layout activity_unhappy
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

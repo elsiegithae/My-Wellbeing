@@ -73,6 +73,7 @@ int animator mtrl_fab_hide_motion_spec 0x7f02001d
 int animator mtrl_fab_show_motion_spec 0x7f02001e
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f02001f
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f020020
+int array spinner1_options 0x7f030001
 int array spinner_options 0x7f030000
 int attr SharedValue 0x7f040000
 int attr SharedValueId 0x7f040001
@@ -2702,7 +2703,11 @@ int drawable abc_textfield_search_material 0x7f080076
 int drawable abc_vector_test 0x7f080077
 int drawable avd_hide_password 0x7f080078
 int drawable avd_show_password 0x7f080079
+int drawable bg_angry 0x7f0800e1
 int drawable bg_happy 0x7f08007a
+int drawable bg_rad 0x7f0800e2
+int drawable bg_sad 0x7f0800e3
+int drawable bg_unhappy 0x7f0800e4
 int drawable btn_checkbox_checked_mtrl 0x7f08007b
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f08007c
 int drawable btn_checkbox_unchecked_mtrl 0x7f08007d
@@ -3053,8 +3058,18 @@ int id listMode 0x7f0900f4
 int id list_item 0x7f0900f5
 int id m3_side_sheet 0x7f0900f6
 int id mBtnDone 0x7f0901f9
+int id mBtnDone1 0x7f090207
+int id mBtnDone2 0x7f090208
+int id mBtnDone3 0x7f090209
+int id mBtnDone4 0x7f09020a
 int id mSpinner 0x7f0900f7
 int id mText 0x7f0900f8
+int id mTxt1 0x7f0901fa
+int id mTxt2 0x7f0901fb
+int id mTxt3 0x7f0901fc
+int id mTxt4 0x7f0901fd
+int id mTxt5 0x7f0901fe
+int id mTxtUnhappy 0x7f0901ff
 int id marquee 0x7f0900f9
 int id masked 0x7f0900fa
 int id match_constraint 0x7f0900fb
@@ -3090,6 +3105,7 @@ int id month_navigation_next 0x7f090118
 int id month_navigation_previous 0x7f090119
 int id month_title 0x7f09011a
 int id motion_base 0x7f09011b
+int id mspinnerAngry 0x7f090200
 int id mtrl_anchor_parent 0x7f09011c
 int id mtrl_calendar_day_selector_frame 0x7f09011d
 int id mtrl_calendar_days_of_week 0x7f09011e
@@ -3219,6 +3235,9 @@ int id snapMargins 0x7f090199
 int id south 0x7f09019a
 int id spacer 0x7f09019b
 int id special_effects_controller_view_tag 0x7f09019c
+int id spinner 0x7f090201
+int id spinner2 0x7f090202
+int id spinner3 0x7f090203
 int id spline 0x7f09019d
 int id split_action_bar 0x7f09019e
 int id spread 0x7f09019f
@@ -3261,6 +3280,8 @@ int id textSpacerNoButtons 0x7f0901c3
 int id textSpacerNoTitle 0x7f0901c4
 int id textStart 0x7f0901c5
 int id textTop 0x7f0901c6
+int id textView 0x7f090204
+int id textView2 0x7f090205
 int id text_input_end_icon 0x7f0901c7
 int id text_input_error_icon 0x7f0901c8
 int id text_input_start_icon 0x7f0901c9
@@ -3288,6 +3309,7 @@ int id transition_transform 0x7f0901de
 int id triangle 0x7f0901df
 int id txtEncourge 0x7f0901e0
 int id txtMain 0x7f0901e1
+int id txthappy 0x7f090206
 int id unchecked 0x7f0901e2
 int id uniform 0x7f0901e3
 int id unlabeled 0x7f0901e4
@@ -3417,8 +3439,12 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_angry 0x7f0c006b
 int layout activity_happy 0x7f0c001c
 int layout activity_main 0x7f0c001d
+int layout activity_rad 0x7f0c006c
+int layout activity_sad 0x7f0c006d
+int layout activity_unhappy 0x7f0c006e
 int layout custom_dialog 0x7f0c001e
 int layout design_bottom_navigation_item 0x7f0c001f
 int layout design_bottom_sheet_dialog 0x7f0c0020
