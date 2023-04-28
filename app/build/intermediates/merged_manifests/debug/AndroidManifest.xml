@@ -8,6 +8,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <permission
         android:name="com.example.mywellbeing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -27,19 +29,22 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyWellbeing" >
         <activity
-            android:name="com.example.mywellbeing.sad"
+            android:name="com.example.mywellbeing.LoginActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.mywellbeing.unhappy"
+            android:name="com.example.mywellbeing.SadActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.mywellbeing.rad"
+            android:name="com.example.mywellbeing.UnhappyActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.mywellbeing.angry"
+            android:name="com.example.mywellbeing.RadActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.mywellbeing.happy"
+            android:name="com.example.mywellbeing.AngryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mywellbeing.HappyActivity"
             android:exported="false" />
         <activity
             android:name="com.example.mywellbeing.MainActivity"

@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_sad"
-    tools:context=".sad">
+    tools:context=".SadActivity">
 
     <TextView
         android:id="@+id/mTxt4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
         android:layout_marginStart="29dp"
         android:layout_marginTop="47dp"
         android:layout_marginBottom="30dp"
@@ -25,6 +26,7 @@
         android:id="@+id/mTxt5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
         android:layout_marginStart="29dp"
         android:layout_marginBottom="18dp"
         android:text="What's the reason?"
@@ -38,6 +40,7 @@
         android:id="@+id/spinner3"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:fontFamily="@font/montserrat"
         android:layout_marginEnd="3dp"
         android:layout_marginBottom="25dp"
         android:entries="@array/spinner1_options"
@@ -51,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="29dp"
+        android:fontFamily="@font/montserrat"
         android:layout_marginBottom="322dp"
         android:text="Done"
         android:textAllCaps="false"

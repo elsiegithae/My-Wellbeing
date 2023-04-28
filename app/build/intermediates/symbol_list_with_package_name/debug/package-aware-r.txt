@@ -2706,6 +2706,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable bg_angry
 drawable bg_happy
+drawable bg_login
 drawable bg_rad
 drawable bg_sad
 drawable bg_unhappy
@@ -2723,12 +2724,16 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable happy
+drawable ic_account
 drawable ic_arrow_back_black_24
+drawable ic_circle_account
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_email
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_lock
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2811,6 +2816,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font montserrat
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3310,6 +3316,7 @@ id transition_transform
 id triangle
 id txtEncourge
 id txtMain
+id txtWelcome
 id txthappy
 id unchecked
 id uniform
@@ -3442,6 +3449,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_angry
 layout activity_happy
+layout activity_login
 layout activity_main
 layout activity_rad
 layout activity_sad

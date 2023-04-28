@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class happy : AppCompatActivity() {
+class HappyActivity : AppCompatActivity() {
     lateinit var mDone :Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -13,7 +13,7 @@ class happy : AppCompatActivity() {
         mDone=findViewById(R.id.mBtnDone)
 
         mDone.setOnClickListener {
-            val tembea= Intent(this@happy, MainActivity::class.java)
+            val tembea= Intent(this@HappyActivity, MainActivity::class.java)
             startActivity(tembea)
         }
 

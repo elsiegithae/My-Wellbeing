@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_rad"
-    tools:context=".rad">
+    tools:context=".RadActivity">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:fontFamily="@font/montserrat"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="29dp"
         android:text="Rad"
@@ -26,6 +27,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="12dp"
+        android:fontFamily="@font/montserrat"
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="64dp"
         android:entries="@array/spinner1_options"
@@ -38,6 +40,7 @@
         android:id="@+id/mTxt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="31dp"
         android:text="What's the reason?"
@@ -51,6 +54,7 @@
         android:id="@+id/mBtnDone2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="299dp"
         android:text="Done"

@@ -83,9 +83,12 @@
                 {
                     "source": "/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/res/values/themes.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "800"
                     },
                     "to": {
                         "startLines": "6228",
@@ -145,12 +148,9 @@
                 {
                     "source": "/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "12,-1,-1",
-                        "startColumns": "4,-1,-1",
-                        "startOffsets": "364,-1,-1",
-                        "endLines": "21,-1,-1",
-                        "endColumns": "19,-1,-1",
-                        "endOffsets": "687,-1,-1"
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
                     },
                     "to": {
                         "startLines": "2,12,1817",
