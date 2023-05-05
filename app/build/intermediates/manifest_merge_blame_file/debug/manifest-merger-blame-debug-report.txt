@@ -11,8 +11,8 @@
 9-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CALL_PHONE" />
-11-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:4:5-68
-11-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:4:22-66
+11-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:5:5-69
+11-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:5:22-66
 12
 13    <permission
 13-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-3/c73afc1fa215d9ca128620a3c01802b0/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
@@ -26,101 +26,125 @@
 17-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-3/c73afc1fa215d9ca128620a3c01802b0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:6:5-42:19
+19-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:7:5-55:19
 20        android:allowBackup="true"
-20-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:7:9-35
+20-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-3/c73afc1fa215d9ca128620a3c01802b0/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:8:9-65
+22-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:9:9-65
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:fullBackupContent="@xml/backup_rules"
-25-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:9:9-54
+25-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:10:9-54
 26        android:icon="@mipmap/ic_launcher"
-26-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:10:9-43
+26-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:11:9-43
 27        android:label="@string/app_name"
-27-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:11:9-41
+27-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:12:9-41
 28        android:supportsRtl="true"
-28-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:12:9-35
+28-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:13:9-35
 29        android:testOnly="true"
 30        android:theme="@style/Theme.MyWellbeing" >
-30-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:13:9-49
+30-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:14:9-49
 31        <activity
-31-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:15:9-17:40
-32            android:name="com.example.mywellbeing.LoginActivity"
-32-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:16:13-42
+31-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:16:9-18:40
+32            android:name="com.example.mywellbeing.HomeActivity"
+32-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:17:13-41
 33            android:exported="false" />
-33-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:17:13-37
+33-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:18:13-37
 34        <activity
-34-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:18:9-20:40
-35            android:name="com.example.mywellbeing.SadActivity"
-35-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:19:13-40
+34-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:16:9-18:40
+35            android:name="com.example.mywellbeing.HomeActivity"
+35-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:17:13-41
 36            android:exported="false" />
-36-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:20:13-37
+36-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:18:13-37
 37        <activity
-37-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:21:9-23:40
-38            android:name="com.example.mywellbeing.UnhappyActivity"
-38-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:22:13-44
+37-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:22:9-24:40
+38            android:name="com.example.mywellbeing.RegisterActivity"
+38-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:23:13-45
 39            android:exported="false" />
-39-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:23:13-37
+39-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:24:13-37
 40        <activity
-40-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:24:9-26:40
-41            android:name="com.example.mywellbeing.RadActivity"
-41-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:25:13-40
+40-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:25:9-27:40
+41            android:name="com.example.mywellbeing.LoginActivity"
+41-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:26:13-42
 42            android:exported="false" />
-42-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:26:13-37
+42-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:27:13-37
 43        <activity
-43-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:27:9-29:40
-44            android:name="com.example.mywellbeing.AngryActivity"
-44-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:28:13-42
+43-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:25:9-27:40
+44            android:name="com.example.mywellbeing.LoginActivity"
+44-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:26:13-42
 45            android:exported="false" />
-45-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:29:13-37
+45-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:27:13-37
 46        <activity
-46-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:30:9-32:40
-47            android:name="com.example.mywellbeing.HappyActivity"
-47-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:31:13-42
+46-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:31:9-33:40
+47            android:name="com.example.mywellbeing.SadActivity"
+47-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:32:13-40
 48            android:exported="false" />
-48-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:32:13-37
+48-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:33:13-37
 49        <activity
-49-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:33:9-41:20
-50            android:name="com.example.mywellbeing.MainActivity"
-50-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:34:13-41
-51            android:exported="true" >
-51-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:35:13-36
-52            <intent-filter>
-52-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:36:13-40:29
-53                <action android:name="android.intent.action.MAIN" />
-53-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:37:17-69
-53-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:37:25-66
-54
-55                <category android:name="android.intent.category.LAUNCHER" />
-55-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:39:17-77
-55-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:39:27-74
-56            </intent-filter>
-57        </activity>
-58
-59        <provider
-59-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-60            android:name="androidx.startup.InitializationProvider"
-60-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-61            android:authorities="com.example.mywellbeing.androidx-startup"
-61-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-62            android:exported="false" >
-62-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-63            <meta-data
-63-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-64-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-65                android:value="androidx.startup" />
-65-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-66            <meta-data
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/emobilis/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-67-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/emobilis/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-68                android:value="androidx.startup" />
-68-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/emobilis/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-69        </provider>
-70    </application>
-71
-72</manifest>
+49-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:34:9-36:40
+50            android:name="com.example.mywellbeing.UnhappyActivity"
+50-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:35:13-44
+51            android:exported="false" />
+51-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:36:13-37
+52        <activity
+52-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:37:9-39:40
+53            android:name="com.example.mywellbeing.RadActivity"
+53-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:38:13-40
+54            android:exported="false" />
+54-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:39:13-37
+55        <activity
+55-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:40:9-42:40
+56            android:name="com.example.mywellbeing.AngryActivity"
+56-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:41:13-42
+57            android:exported="false" />
+57-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:42:13-37
+58        <activity
+58-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:43:9-45:40
+59            android:name="com.example.mywellbeing.HappyActivity"
+59-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:44:13-42
+60            android:exported="false" />
+60-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:45:13-37
+61        <activity
+61-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:46:9-54:20
+62            android:name="com.example.mywellbeing.MainActivity"
+62-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:47:13-41
+63            android:exported="true" >
+63-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:48:13-36
+64            <intent-filter>
+64-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:49:13-53:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:50:17-69
+65-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:50:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:52:17-77
+67-->/home/emobilis/AndroidStudioProjects/MyWellbeing/app/src/main/AndroidManifest.xml:52:27-74
+68            </intent-filter>
+69        </activity>
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+73            android:authorities="com.example.mywellbeing.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/emobilis/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/emobilis/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/emobilis/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+81        </provider>
+82    </application>
+83
+84</manifest>

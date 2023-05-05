@@ -39,7 +39,7 @@
     <Spinner
         android:id="@+id/spinner3"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="48dp"
         android:fontFamily="@font/montserrat"
         android:layout_marginEnd="3dp"
         android:layout_marginBottom="25dp"

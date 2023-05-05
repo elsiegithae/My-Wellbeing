@@ -20,4 +20,16 @@
         <item>Not Sure</item>
         <item>Other</item>
     </string-array>
+    <string name="started_subtitle">
+        Nice to meet you. Come and join our community!
+        <br><b>Login</b> if you already have an account.</br>
+        <br><b>Register</b> to get started with My Wellbeing</br>
+    </string>
+    <string name="login_havent_account">
+        I don\'t have an account<font color="#0009BB"><b>Register</b></font>
+    </string>
+
+    <string name="login_have_account">Already have an account? <font color="#0009BB"><b>Login</b></font>
+    </string>
+
 </resources>

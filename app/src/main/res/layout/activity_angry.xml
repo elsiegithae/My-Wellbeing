@@ -25,7 +25,7 @@
     <Spinner
         android:id="@+id/mspinnerAngry"
         android:layout_width="346dp"
-        android:layout_height="0dp"
+        android:layout_height="48dp"
         android:fontFamily="@font/montserrat"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="82dp"

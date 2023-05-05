@@ -39,7 +39,7 @@
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="48dp"
         android:layout_marginStart="13dp"
         android:fontFamily="@font/montserrat"
         android:layout_marginEnd="13dp"
@@ -53,7 +53,7 @@
     <Button
         android:id="@+id/mBtnDone4"
         android:layout_width="91dp"
-        android:layout_height="0dp"
+        android:layout_height="48dp"
         android:fontFamily="@font/montserrat"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="316dp"

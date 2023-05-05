@@ -10,6 +10,7 @@ color teal_200
 color teal_700
 color white
 drawable bg_angry
+drawable bg_button
 drawable bg_happy
 drawable bg_login
 drawable bg_rad
@@ -27,6 +28,7 @@ id btnAngry
 id btnHappy
 id btnHelpline
 id btnHotline
+id btnLogin
 id btnRad
 id btnSad
 id btnUnhappy
@@ -37,6 +39,8 @@ id mBtnDone1
 id mBtnDone2
 id mBtnDone3
 id mBtnDone4
+id mBtnLogin
+id mBtnReg
 id mSpinner
 id mText
 id mTxt1
@@ -51,12 +55,19 @@ id spinner2
 id spinner3
 id textView
 id textView2
+id textView3
+id textView4
+id textView5
+id textView6
 id txtEncourge
 id txtMain
+id txtName
+id txtPass
 id txtWelcome
 id txthappy
 layout activity_angry
 layout activity_happy
+layout activity_home
 layout activity_login
 layout activity_main
 layout activity_rad
@@ -65,6 +76,9 @@ layout activity_unhappy
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string login_havent_account
+string started_subtitle
+style Reg_button
 style Theme.MyWellbeing
 xml backup_rules
 xml data_extraction_rules

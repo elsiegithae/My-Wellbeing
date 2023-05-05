@@ -29,6 +29,18 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyWellbeing" >
         <activity
+            android:name="com.example.mywellbeing.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mywellbeing.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mywellbeing.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mywellbeing.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.mywellbeing.LoginActivity"
             android:exported="false" />
         <activity

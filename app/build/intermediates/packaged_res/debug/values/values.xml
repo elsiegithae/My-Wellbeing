@@ -27,6 +27,22 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">My Wellbeing</string>
+    <string name="login_have_account">Already have an account? <font color="#0009BB"><b>Login</b></font>
+    </string>
+    <string name="login_havent_account">
+        I don\'t have an account<font color="#0009BB"><b>Register</b></font>
+    </string>
+    <string name="started_subtitle">
+        Nice to meet you. Come and join our community!
+        <br><b>Login</b> if you already have an account.</br>
+        <br><b>Register</b> to get started with My Wellbeing</br>
+    </string>
+    <style name="Reg_button">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
     <style name="Theme.MyWellbeing" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
