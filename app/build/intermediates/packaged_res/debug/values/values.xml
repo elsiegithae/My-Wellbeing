@@ -27,11 +27,18 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">My Wellbeing</string>
+    <string name="default_web_client_id" translatable="false">1046337763279-5fdoiiq9t7aful7mai136taurm9912ad.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1046337763279</string>
+    <string name="google_api_key" translatable="false">AIzaSyBfyzQdMeMP0fxTi9uhSJAWX2NQXTHadgs</string>
+    <string name="google_app_id" translatable="false">1:1046337763279:android:67a7483e90fd93cbe244ba</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBfyzQdMeMP0fxTi9uhSJAWX2NQXTHadgs</string>
+    <string name="google_storage_bucket" translatable="false">my-wellbeing-4057c.appspot.com</string>
     <string name="login_have_account">Already have an account? <font color="#0009BB"><b>Login</b></font>
     </string>
     <string name="login_havent_account">
         I don\'t have an account<font color="#0009BB"><b>Register</b></font>
     </string>
+    <string name="project_id" translatable="false">my-wellbeing-4057c</string>
     <string name="started_subtitle">
         Nice to meet you. Come and join our community!
         <br><b>Login</b> if you already have an account.</br>
