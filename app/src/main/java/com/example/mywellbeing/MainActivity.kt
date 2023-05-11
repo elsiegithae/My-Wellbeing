@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var mUnhappy :Button
     lateinit var mHotline : Button
     lateinit var mHelpline : Button
+    lateinit var mAddArticle:Button
+    lateinit var mArticle:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -28,11 +30,17 @@ class MainActivity : AppCompatActivity() {
         mUnhappy=findViewById(R.id.btnUnhappy)
         mHotline=findViewById(R.id.btnHotline)
         mHelpline=findViewById(R.id.btnHelpline)
+        mAddArticle=findViewById(R.id.btnAddArticle)
+        mArticle=findViewById(R.id.btnArticles)
 
 
 
         mHappy.setOnClickListener {
             val tembea= Intent(this@MainActivity, HappyActivity::class.java)
+            startActivity(tembea)
+        }
+        mArticle.setOnClickListener {
+            val tembea= Intent(this@MainActivity, ArticlesActivity::class.java)
             startActivity(tembea)
         }
 
@@ -55,6 +63,11 @@ class MainActivity : AppCompatActivity() {
             val tembea= Intent(this@MainActivity, SadActivity::class.java)
             startActivity(tembea)
         }
+        mAddArticle.setOnClickListener {
+            val tembea= Intent(this@MainActivity, AddarticlesActivity::class.java)
+            startActivity(tembea)
+        }
+
         mHelpline.setOnClickListener {
             val intent = Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "0780799142"))
             if (ContextCompat.checkSelfPermission(

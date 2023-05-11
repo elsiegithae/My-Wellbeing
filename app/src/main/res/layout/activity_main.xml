@@ -12,9 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
+        android:fontFamily="@font/montserrat"
         android:text="How are you feeling?"
         android:textColor="#000"
-        android:fontFamily="@font/montserrat"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/btnHappy"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,10 +22,10 @@
     <Button
         android:id="@+id/btnHappy"
         android:layout_width="wrap_content"
-        android:fontFamily="@font/montserrat"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="3dp"
+        android:fontFamily="@font/montserrat"
         android:text="Happy"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="@+id/btnAngry"
@@ -38,8 +38,8 @@
         android:id="@+id/btnAngry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat"
         android:layout_marginTop="27dp"
+        android:fontFamily="@font/montserrat"
         android:text="Angry"
         android:textAllCaps="false"
         app:layout_constraintEnd_toStartOf="@+id/btnSad"
@@ -51,8 +51,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="6dp"
-        android:text="Sad"
         android:fontFamily="@font/montserrat"
+        android:text="Sad"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="@+id/btnAngry"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,87 +63,106 @@
         android:id="@+id/btnRad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
+        android:layout_marginBottom="32dp"
         android:fontFamily="@font/montserrat"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="1dp"
         android:text="Rad"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="@+id/btnAngry"
-        app:layout_constraintStart_toStartOf="@+id/btnHappy" />
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@+id/btnAngry" />
 
     <Button
         android:id="@+id/btnUnhappy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginEnd="70dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="32dp"
         android:fontFamily="@font/montserrat"
-        android:layout_marginBottom="1dp"
         android:text="Unhappy"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
-        app:layout_constraintStart_toStartOf="@+id/btnAngry" />
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="213dp"
-        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="253dp"
         android:layout_marginEnd="1dp"
+        android:fontFamily="@font/montserrat"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/btnHotline"
-            android:layout_width="wrap_content"
-            android:fontFamily="@font/montserrat"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginRight="30dp"
-            android:backgroundTint="#5c068c"
-            android:text="Hotline" />
-
-        <Button
-            android:id="@+id/btnHelpline"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
-            android:layout_weight="1"
-            android:layout_marginLeft="30dp"
-            android:backgroundTint="#5c068c"
-            android:text="Helpline" />
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="32dp"
-        android:fontFamily="@font/montserrat"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        tools:srcCompat="@drawable/happy" />
 
     <TextView
         android:id="@+id/txtEncourge"
-        android:layout_width="357dp"
+        android:layout_width="0dp"
         android:layout_height="91dp"
-        android:text="YOU ARE NOT ALONE!!"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="65dp"
         android:fontFamily="@font/montserrat"
+        android:text="YOU ARE NOT ALONE!!"
         android:textColor="#000"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnArticles"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnArticles"
+        app:layout_constraintTop_toBottomOf="@+id/btnHelpline" />
+
+    <Button
+        android:id="@+id/btnArticles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Articles"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddArticle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Add Article"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnHotline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="55dp"
+        android:layout_weight="1"
+        android:backgroundTint="#5c068c"
+        android:fontFamily="@font/montserrat"
+        android:text="Hotline"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.855" />
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/btnHelpline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="27dp"
+        android:layout_weight="1"
+        android:backgroundTint="#5c068c"
+        android:fontFamily="@font/montserrat"
+        android:text="Helpline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
