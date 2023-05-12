@@ -2732,6 +2732,7 @@ int drawable bg_article 0x7f080101
 int drawable bg_button 0x7f08007b
 int drawable bg_happy 0x7f08007c
 int drawable bg_login 0x7f08007d
+int drawable bg_main 0x7f080103
 int drawable bg_rad 0x7f08007e
 int drawable bg_sad 0x7f08007f
 int drawable bg_unhappy 0x7f080080
@@ -3053,6 +3054,11 @@ int id easeIn 0x7f0a00b8
 int id easeInOut 0x7f0a00b9
 int id easeOut 0x7f0a00ba
 int id east 0x7f0a00bb
+int id editTextTextPersonName 0x7f0a0230
+int id editTextTextPersonName2 0x7f0a0231
+int id editTextTextPersonName3 0x7f0a0232
+int id editTextTextPersonName4 0x7f0a0233
+int id editTextTextPersonName5 0x7f0a0234
 int id edit_query 0x7f0a00bc
 int id elastic 0x7f0a00bd
 int id embed 0x7f0a00be

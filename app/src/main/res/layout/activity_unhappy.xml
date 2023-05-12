@@ -39,7 +39,7 @@
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="48dp"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="35dp"
@@ -53,11 +53,12 @@
     <Button
         android:id="@+id/mBtnDone4"
         android:layout_width="91dp"
-        android:layout_height="0dp"
+        android:layout_height="48dp"
         android:layout_marginStart="19dp"
         android:layout_marginBottom="230dp"
         android:fontFamily="@font/montserrat"
         android:text="Done"
+        android:backgroundTint="#A020F0"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +67,7 @@
     <EditText
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="51dp"
         android:ems="10"

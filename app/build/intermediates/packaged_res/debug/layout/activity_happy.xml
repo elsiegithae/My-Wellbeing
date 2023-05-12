@@ -11,9 +11,9 @@
         android:id="@+id/mText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="19dp"
+        android:layout_marginBottom="17dp"
+        android:fontFamily="@font/montserrat"
         android:text="Whats the reason?"
         android:textColor="#000"
         android:textSize="20dp"
@@ -23,16 +23,14 @@
 
     <Spinner
         android:id="@+id/mSpinner"
-        android:layout_width="0dp"
-        android:layout_height="48dp"
-        android:fontFamily="@font/montserrat"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="150dp"
+        android:layout_width="379dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
         android:entries="@array/spinner_options"
-        app:layout_constraintBottom_toTopOf="@+id/mBtnDone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toEndOf="@+id/mText"
+        app:layout_constraintStart_toEndOf="@+id/mText"
         app:layout_constraintTop_toBottomOf="@+id/mText" />
 
     <TextView
@@ -40,9 +38,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="26dp"
         android:fontFamily="@font/montserrat"
-        android:layout_marginTop="49dp"
-        android:layout_marginBottom="25dp"
         android:text="Happy"
         android:textColor="#000"
         android:textSize="40dp"
@@ -55,11 +53,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="17dp"
+        android:layout_marginBottom="191dp"
         android:fontFamily="@font/montserrat"
-        android:layout_marginBottom="196dp"
         android:text="Done"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="91dp"
+        android:ems="10"
+        android:hint="What other reason?"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnDone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mSpinner" />
 

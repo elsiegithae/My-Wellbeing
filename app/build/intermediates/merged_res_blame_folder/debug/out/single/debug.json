@@ -1,15 +1,11 @@
 [
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/layout_activity_main.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/layout/activity_main.xml"
-    },
-    {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/drawable_happy.png.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/drawable/happy.png"
     },
     {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-xhdpi_my_icon_round.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-xhdpi/my_icon_round.png"
+        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/layout/activity_main.xml"
     },
     {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -32,10 +28,6 @@
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-mdpi/my_icon_foreground.png"
     },
     {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-xxxhdpi_my_icon.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-xxxhdpi/my_icon.png"
-    },
-    {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-mdpi/ic_launcher.png"
     },
@@ -46,14 +38,6 @@
     {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-mdpi_my_icon_foreground.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-mdpi/my_icon_foreground.png"
-    },
-    {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-xxhdpi_my_icon_foreground.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-xxhdpi/my_icon_foreground.png"
     },
     {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
@@ -88,6 +72,10 @@
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
+        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/drawable_bg_main.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/drawable/bg_main.xml"
+    },
+    {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/drawable_bg_sad.xml.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/drawable/bg_sad.xml"
     },
@@ -108,16 +96,8 @@
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-xxhdpi_my_icon.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-xxhdpi/my_icon.png"
-    },
-    {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/xml_backup_rules.xml.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-hdpi_my_icon.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-hdpi/my_icon.png"
     },
     {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/mipmap-xxhdpi_my_icon_foreground.png.flat",
@@ -142,10 +122,6 @@
     {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/xml/data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-xxxhdpi_my_icon_foreground.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-xxxhdpi/my_icon_foreground.png"
     },
     {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/drawable_bg_button.xml.flat",
@@ -204,10 +180,6 @@
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-hdpi_my_icon_foreground.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-hdpi/my_icon_foreground.png"
-    },
-    {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/mipmap-xxxhdpi_my_icon.png.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-xxxhdpi/my_icon.png"
     },
@@ -232,10 +204,6 @@
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-xhdpi_my_icon.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-xhdpi/my_icon.png"
-    },
-    {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/mipmap-mdpi_my_icon_round.png.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-mdpi/my_icon_round.png"
     },
@@ -244,20 +212,8 @@
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-xhdpi_my_icon_foreground.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-xhdpi/my_icon_foreground.png"
-    },
-    {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-xxxhdpi_my_icon_round.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-xxxhdpi/my_icon_round.png"
-    },
-    {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-xxhdpi_my_icon_round.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-xxhdpi/my_icon_round.png"
     },
     {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/mipmap-xxxhdpi_my_icon_round.png.flat",
@@ -268,16 +224,16 @@
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-hdpi/my_icon_round.png"
     },
     {
+        "merged": "com.example.mywellbeing.app-merged_res-34:/layout_activity_unhappy.xml.flat",
+        "source": "com.example.mywellbeing.app-main-36:/layout/activity_unhappy.xml"
+    },
+    {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/layout_activity_home.xml.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/layout/activity_home.xml"
     },
     {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-hdpi_my_icon_round.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-hdpi/my_icon_round.png"
     },
     {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/drawable_bg_happy.xml.flat",
@@ -310,14 +266,6 @@
     {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-main-36:/mipmap-xhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-mdpi_my_icon.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-mdpi/my_icon.png"
-    },
-    {
-        "merged": "com.example.mywellbeing.app-merged_res-34:/mipmap-mdpi_my_icon_round.png.flat",
-        "source": "com.example.mywellbeing.app-main-36:/mipmap-mdpi/my_icon_round.png"
     },
     {
         "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.mywellbeing.app-merged_res-34:/layout_activity_rad.xml.flat",

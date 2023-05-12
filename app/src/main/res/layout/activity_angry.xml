@@ -56,6 +56,7 @@
         android:layout_marginBottom="226dp"
         android:fontFamily="@font/montserrat"
         android:text="Done"
+        android:backgroundTint="#dc143c"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

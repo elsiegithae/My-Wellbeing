@@ -2733,6 +2733,7 @@ drawable bg_article
 drawable bg_button
 drawable bg_happy
 drawable bg_login
+drawable bg_main
 drawable bg_rad
 drawable bg_sad
 drawable bg_unhappy
@@ -3054,6 +3055,11 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextTextPersonName
+id editTextTextPersonName2
+id editTextTextPersonName3
+id editTextTextPersonName4
+id editTextTextPersonName5
 id edit_query
 id elastic
 id embed
